@@ -1,0 +1,46 @@
+body {
+    font-size: 18px;
+}
+
+h1, footer {
+    background-color: coral;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+#my-image {
+    height: 300px ;
+    width: 350px;
+}
+
+.site-title {
+    color:white;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#hobbies li:nth-child(odd) {
+    background: coral;
+}
+
+#notes-tab {
+    text-decoration: none;
+}
+
+#index-tab {
+    text-decoration: none;
+}
+
+#notes-tab:hover, #index-tab:hover {
+    background-color: coral;
+}
+
+#notes-tab, #index-tab {
+    background-color: rgba(230, 5, 5, 0.29);
+    border: 4px solid coral;
+}
+
